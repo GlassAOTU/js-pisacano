@@ -13,6 +13,9 @@ const config: Config = {
 				background: 'var(--background)',
 				foreground: 'var(--foreground)',
 			},
+			screens: {
+				'navbar' : '920px'
+			}
 		},
 	},
 	plugins: [require('preline/plugin')],
