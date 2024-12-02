@@ -1,9 +1,7 @@
-import DonateButton from "./DonateButton/DonateButton";
-
 export default function TopHero() {
 	return (
 		// background color and size
-		<div className="bg-gradient-to-br from-blue-400 to-purple-500">
+		<div className="bg-gradient-to-br from-blue-400 to-purple-500 h-auto">
 			{/* text area */}
 			<div className="max-w-[85rem] mx-auto lg:px-24 sm:px-16 px-4 lg:py-20 md:pt-16 py-10 space-y-6">
 				{/* Title */}
@@ -21,11 +19,6 @@ export default function TopHero() {
 					</p>
 				</div>
 				{/* End Subtitle */}
-				{/* Buttons */}
-				<div className="flex md:justify-start justify-center">
-					<DonateButton />
-				</div>
-				{/* End Buttons */}
 			</div>
 			{/* end text area */}
 		</div>
