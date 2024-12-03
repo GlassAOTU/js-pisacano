@@ -115,14 +115,14 @@ const Navbar = () => {
                             </Link>
 
                             <Link
-                                href="/"
+                                href="/about"
                                 className="p-2 flex items-center text-black/80 hover:text-black focus:outline-none focus:text-black"
                             >
                                 About Us
                             </Link>
 
                             <Link
-                                href="/"
+                                href="/contact"
                                 className="p-2 flex items-center text-black/80 hover:text-black focus:outline-none focus:text-black"
                             >
                                 Contact
