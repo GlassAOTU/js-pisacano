@@ -18,21 +18,21 @@ const Navbar = () => {
                         href="/"
                         className="z-10 hidden ellipsis1:block flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80"
                     >
-                        Joeseph & Susan Pisacano Memorial Foundation
+                        Joseph & Susan Pisacano Memorial Foundation
                     </Link>
 
                     <Link
                         href="/"
                         className="z-10 hidden ellipsis2:block ellipsis1:hidden flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80"
                     >
-                        Joeseph & Susan Pisacano Memorial...
+                        Joseph & Susan Pisacano Memorial...
                     </Link>
 
                     <Link
                         href="/"
                         className="z-10 block ellipsis1:hidden ellipsis2:hidden flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80"
                     >
-                        Joeseph & Susan Pisacano...
+                        Joseph & Susan Pisacano...
                     </Link>
 
                     {/* menu button */}

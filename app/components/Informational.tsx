@@ -7,7 +7,7 @@ export default function Informational() {
                 {/* for the content of the card */}
                 <div className="w-full h-auto max-w-[1360px] bg-white lg:shadow-xl lg:rounded-lg p-20 text-center space-y-10">
                     <h1 className="text-2xl md:text-3xl lg:text-4xl pt-3">
-                        Welcome to the <b>Joeseph & Susan Pisacano Memorial Foundation</b>
+                        Welcome to the <b>Joseph & Susan Pisacano Memorial Foundation</b>
                     </h1>
                     <p className="text-lg sm:text-xl lg:text-2xl">
                         We are a not-for-profit 501(C)(3) corporation
