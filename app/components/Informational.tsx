@@ -5,11 +5,11 @@ export default function Informational() {
             {/* for the spacing at the sides of the card */}
             <div className="w-full h-auto flex flex-col items-center mt-0 mb-0 lg:mt-[-65px] lg:mb-[-65px]">
                 {/* for the content of the card */}
-                <div className="w-full h-[500px] lg:h-[600px] max-w-[1360px] bg-white lg:shadow-xl lg:rounded-lg p-20 text-center space-y-10">
-                    <h1 className="text-4xl pt-3">
-                        Welcome to the <b>Pisacano Foundation</b>
+                <div className="w-full h-auto max-w-[1360px] bg-white lg:shadow-xl lg:rounded-lg p-20 text-center space-y-10">
+                    <h1 className="text-2xl md:text-3xl lg:text-4xl pt-3">
+                        Welcome to the <b>Joeseph & Susan Pisacano Memorial Foundation</b>
                     </h1>
-                    <p className="text-lg lg:text-2xl">
+                    <p className="text-lg sm:text-xl lg:text-2xl">
                         We are a not-for-profit 501(C)(3) corporation
                         established in 2023. Our mission is to help graduating
                         students from Walt Whitman High School and other schools
