@@ -55,6 +55,7 @@ export default function Donate() {
                                 src={zelleCode}
                                 alt="Zelle QR link to donation"
                             />
+                            <p className='text-xl pt-5 underline'>Scan with your bank app</p>
                         </div>
                     </div>
 
