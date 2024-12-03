@@ -17,7 +17,7 @@ import Footer from '@/app/components/Footer';
 // });
 
 export const metadata: Metadata = {
-    title: 'Pisacano Foundation',
+    title: 'Joseph and Susan Pisacano Memorial Foundation',
     description: 'Joseph and Susan Pisacano Memorial Foundation',
 };
 
