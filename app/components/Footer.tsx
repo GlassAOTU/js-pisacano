@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
 	return (
 		<footer className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
@@ -16,28 +18,19 @@ export default function Footer() {
 
 				<ul className="text-center">
 					<li className="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 ">
-						<a
-							className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800"
-							href="./"
-						>
-							The Issue
-						</a>
+						<Link href='/' className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800">
+							Homepage
+						</Link>
 					</li>
 					<li className="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300">
-						<a
-							className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800"
-							href="./"
-						>
+						<Link href='/about' className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800">
 							About Us
-						</a>
+						</Link>
 					</li>
 					<li className="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 ">
-						<a
-							className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800"
-							href="./"
-						>
-							Blog
-						</a>
+						<Link href='/donate' className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800">
+							Donate
+						</Link>
 					</li>
 				</ul>
 				{/* End Col */}
