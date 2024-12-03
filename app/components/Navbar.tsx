@@ -14,13 +14,26 @@ const Navbar = () => {
             <nav className="relative max-w-[90rem] w-full navbar:flex md:items-center md:justify-between md:gap-3 mx-auto px-4  py-[21px]">
                 {/* logo with menu button */}
                 <div className="flex items-center justify-between">
-                    <a
-                        className="flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80"
-                        href="./"
-                        aria-label="Brand"
+                    <Link
+                        href="/"
+                        className="z-10 hidden ellipsis1:block flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80"
                     >
                         Joeseph & Susan Pisacano Memorial Foundation
-                    </a>
+                    </Link>
+
+                    <Link
+                        href="/"
+                        className="z-10 hidden ellipsis2:block ellipsis1:hidden flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80"
+                    >
+                        Joeseph & Susan Pisacano Memorial...
+                    </Link>
+
+                    <Link
+                        href="/"
+                        className="z-10 block ellipsis1:hidden ellipsis2:hidden flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80"
+                    >
+                        Joeseph & Susan Pisacano...
+                    </Link>
 
                     {/* menu button */}
                     <div className="navbar:hidden">
@@ -80,40 +93,49 @@ const Navbar = () => {
                 {/* menu */}
                 <div
                     id="hs-base-header"
-                    className={`hs-collapse ${isNavOpen ? 'block' : 'hidden'} overflow-hidden transition-all duration-300 basis-full grow navbar:block`}
+                    className={`hs-collapse ${
+                        isNavOpen ? 'block' : 'hidden'
+                    } overflow-hidden transition-all duration-300 basis-full grow navbar:block`}
                     aria-labelledby="hs-base-header-collapse"
                 >
                     <div className="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
                         <div className="pt-6 navbar:py-0 flex flex-col navbar:flex-row navbar:items-center navbar:justify-end gap-0.5 navbar:gap-1">
-                            <a
-                                className="p-2 flex items-center text-black focus:outline-none focus:text-black"
-                                href="./"
-                                aria-current="page"
-                            >The Mission</a>
-
-                            <a
+                            <Link
+                                href="/"
                                 className="p-2 flex items-center text-black/80 hover:text-black focus:outline-none focus:text-black"
-                                href="./"
-                            >About Us</a>
+                            >
+                                Home
+                            </Link>
 
-                            {/* <a
-								className="p-2 flex items-center text-black/80 hover:text-black focus:outline-none focus:text-black"
-								href="./"
-							>
-								Our Impact
-							</a> */}
-
-                            <a
+                            <Link
+                                href="/mission"
                                 className="p-2 flex items-center text-black/80 hover:text-black focus:outline-none focus:text-black"
-                                href="./"
-                            >Contact Us</a>
+                            >
+                                Our Mission
+                            </Link>
+
+                            <Link
+                                href="/"
+                                className="p-2 flex items-center text-black/80 hover:text-black focus:outline-none focus:text-black"
+                            >
+                                About Us
+                            </Link>
+
+                            <Link
+                                href="/"
+                                className="p-2 flex items-center text-black/80 hover:text-black focus:outline-none focus:text-black"
+                            >
+                                Contact
+                            </Link>
 
                             {/* button group */}
                             <div className="relative flex flex-wrap items-center gap-x-1.5 navbar:ps-2.5 mt-1 navbar:mt-0 navbar:ms-1.5 before:block before:absolute before:top-1/2 before:-start-px before:w-px before:h-4 before:bg-white/30 before:-translate-y-1/2">
-                                <a
+                                <Link
+                                    href="/donate"
                                     className="px-7 py-3 bg-[#ff2121] rounded-full w-full flex items-center text-white font-bold"
-                                    href="./"
-                                >Donate</a>
+                                >
+                                    Donate
+                                </Link>
                             </div>
                             {/* end button group */}
                         </div>

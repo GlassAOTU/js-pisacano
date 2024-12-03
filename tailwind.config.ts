@@ -14,7 +14,9 @@ const config: Config = {
 				foreground: 'var(--foreground)',
 			},
 			screens: {
-				'navbar' : '920px'
+				'navbar' : '920px',
+				'ellipsis1' : '520px',
+				'ellipsis2' : '430px'
 			}
 		},
 	},
