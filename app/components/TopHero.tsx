@@ -55,7 +55,7 @@ export default function TopHero() {
 				{/* Subtitle */}
 				<div className="max-w-[32rem] mx-auto md:mx-0">
 					<p className="text-white text-xl md:text-start text-center sm:text-2xl md:text-3xl lg:text-5xl [text-shadow:_0_2px_4px_rgb(0_0_0_/_0.4)]">
-						WHERE EVERY CHILD HAS THE OPPORTUNITY TO SUCCEED
+						WHERE EVERY STUDENT HAS THE OPPORTUNITY TO SUCCEED
 					</p>
 				</div>
 				{/* End Subtitle */}
