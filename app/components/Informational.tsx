@@ -1,7 +1,7 @@
 export default function Informational() {
     return (
         // for the section background behind the cards
-        <div className="relative w-full h-auto flex lg:px-5 px-0 bg-purple-200">
+        <div className="relative w-full h-auto flex lg:px-5 px-0 bg-[#E9C46A]">
             {/* for the spacing at the sides of the card */}
             <div className="w-full h-auto flex flex-col items-center mt-0 mb-0 lg:mt-[-65px] lg:mb-[-65px]">
                 {/* for the content of the card */}

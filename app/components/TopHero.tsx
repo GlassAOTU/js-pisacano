@@ -39,7 +39,7 @@ export default function TopHero() {
 				}}
 			>
 				{/* Overlay */}
-				<div className="absolute inset-0 bg-gradient-to-br from-orange-300/60 to-red-700/60"></div>
+				<div className="absolute inset-0 bg-[rgba(79,178,185,0.6)]"></div>
 			</div>
 
 			{/* Text Area */}
