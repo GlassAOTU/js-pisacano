@@ -7,11 +7,11 @@ export default function Footer() {
 			<div className="grid grid-cols-1 md:grid-cols-3 items-center gap-5">
 				<div>
 					<a
-						className="flex-none text-xl font-semibold text-black focus:outline-none"
+						className="flex text-lg text-center font-semibold text-black focus:outline-none"
 						href="./"
 						aria-label="Brand"
 					>
-						Pisacano Foundation
+						Joseph & Susan Pisacano Memorial Foundation
 					</a>
 				</div>
 				{/* End Col */}
@@ -28,14 +28,14 @@ export default function Footer() {
 						</Link>
 					</li>
 					<li className="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 ">
-						<Link href='/donate' className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800">
-							Donate
+						<Link href='/contact' className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800">
+							Contact
 						</Link>
 					</li>
 				</ul>
 				{/* End Col */}
 
-				{/* Social Brands */}
+				{/* Social Brands
 				<div className="md:text-end space-x-2">
 					<a
 						className="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-gray-500 hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
@@ -101,7 +101,7 @@ export default function Footer() {
 							<path d="M3.362 10.11c0 .926-.756 1.681-1.681 1.681S0 11.036 0 10.111C0 9.186.756 8.43 1.68 8.43h1.682v1.68zm.846 0c0-.924.756-1.68 1.681-1.68s1.681.756 1.681 1.68v4.21c0 .924-.756 1.68-1.68 1.68a1.685 1.685 0 0 1-1.682-1.68v-4.21zM5.89 3.362c-.926 0-1.682-.756-1.682-1.681S4.964 0 5.89 0s1.68.756 1.68 1.68v1.682H5.89zm0 .846c.924 0 1.68.756 1.68 1.681S6.814 7.57 5.89 7.57H1.68C.757 7.57 0 6.814 0 5.89c0-.926.756-1.682 1.68-1.682h4.21zm6.749 1.682c0-.926.755-1.682 1.68-1.682.925 0 1.681.756 1.681 1.681s-.756 1.681-1.68 1.681h-1.681V5.89zm-.848 0c0 .924-.755 1.68-1.68 1.68A1.685 1.685 0 0 1 8.43 5.89V1.68C8.43.757 9.186 0 10.11 0c.926 0 1.681.756 1.681 1.68v4.21zm-1.681 6.748c.926 0 1.682.756 1.682 1.681S11.036 16 10.11 16s-1.681-.756-1.681-1.68v-1.682h1.68zm0-.847c-.924 0-1.68-.755-1.68-1.68 0-.925.756-1.681 1.68-1.681h4.21c.924 0 1.68.756 1.68 1.68 0 .926-.756 1.681-1.68 1.681h-4.21z" />
 						</svg>
 					</a>
-				</div>
+				</div> */}
 				{/* End Social Brands */}
 			</div>
 			{/* End Grid */}
