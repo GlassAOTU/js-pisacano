@@ -10,8 +10,8 @@ export default function Home() {
 			<TopHero />
 			<Informational />
 			<MiddleHero />
-			<Stories />
-			<BottomHero />
+			{/* <Stories /> */}
+			{/* <BottomHero /> */}
 		</>
 	);
 }
