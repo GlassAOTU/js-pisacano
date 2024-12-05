@@ -1,13 +1,20 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
+    const pathname = usePathname();
 
     const toggleNav = () => {
         setIsNavOpen(!isNavOpen);
     };
+
+    // Close the navbar when the route changes
+    useEffect(() => {
+        setIsNavOpen(false);
+    }, [pathname]);
 
     return (
         <header className="flex sticky top-0 left-0 flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-white drop-shadow-xl">
