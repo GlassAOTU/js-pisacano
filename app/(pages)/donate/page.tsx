@@ -77,7 +77,7 @@ export default function Donate() {
                         <br />
                         PO Box 20404
                         <br />
-                        Huntington Station, NY 117460
+                        Huntington Station, NY 11746
                     </address>
                 </section>
 
